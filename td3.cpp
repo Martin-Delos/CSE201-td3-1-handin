@@ -125,15 +125,19 @@ void merge_telemetry(double **telemetries,
                      int &global_telemetry_current_size,
                      int &global_telemetry_max_size) {
   // IMPLEMENT YOUR FUNCTION HERE
+ /* double* time=
   for (int i=0; i<tot_telemetries; i++) {
     for (int j=0; j<telemetries_sizes[i]; j++) {
       global_telemetry = append_to_array(telemetries[i][j], global_telemetry, global_telemetry_current_size, global_telemetry_max_size);
+      if (j==(telemetries_sizes[i]-1)) {
+
+      }
     }
   }
   double* newarray = new double[global_telemetry_max_size-1];
 
 }
-
+*/
 
 
 
